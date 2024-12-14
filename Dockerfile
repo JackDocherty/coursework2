@@ -1,4 +1,3 @@
-cat > Dockerfile << EOF
 # Use the official Node.js image from DockerHub as a base image
 FROM node:16-alpine
 
@@ -13,4 +12,4 @@ EXPOSE 8080
 
 # Run the application
 CMD ["node", "server.js"]
-EOF
+
